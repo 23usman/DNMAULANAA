@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deni Maulana Hidayat || Portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- boxicon css link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script src="contact.js"></script>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header>
+      <a href="#" class="logo"><span>D</span>NMAULANAA</a>
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="right-header">
+        <div class="btn" style="visibility: hidden">Let's Chat</div>
+        <div class="menu-icon">
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="hero-info">
+        <h3>Welcome To my Profile</h3>
+        <h1>Deni Maulana Hidayat</h1>
+
+        <div class="text-animate">
+          <h2>@DN.PROJECT</h2>
+        </div>
+
+        <p>
+          Saya Mahasiswa Semester 6 Program Studi Teknik Informatika Universitas
+          Islam Kalimantan Muhammad Arsyad Al-Banjari. Memiliki pengalaman di
+          bidang fotografi dan juga videografi serta bisa mengoperasikan kamera,
+          saya pernah membuat beberapa desain spanduk, Poster/pamflet dibeberapa
+          kegiatan Kampus dan Luar Kampus, pernah mengikuti Lomba Poster Tingkat
+          Provinsi. Menjabat sebagai Anggota divisi multimedia pada Himpunan
+          Mahasiswa Prodi Teknik Informatika UNISKA MAB, dan Ketua Bidang
+          Dokumentor Media pada RTIK Cabang Banjarbaru.
+        </p>
+
+        <div class="btn-box">
+          <!--<a href="mailto:dndrone7@gmail.com" class="btn"
+            >Hire Me Now ! <i class="bx bx-right-arrow-alt"></i
+          ></a>-->
+          <a onclick="addEmailLink()" class="btn"
+            >Hire Me Now ! <i class="bx bx-right-arrow-alt"></i
+          ></a>
+
+          <a onclick="downloadCV()" class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+
+        <div class="social-media">
+          <div class="bg-icon">
+            <a onclick="sendMessage()"><i class="bx bxl-whatsapp"></i></a>
+
+            <span></span>
+          </div>
+
+          <div class="bg-icon">
+            <a onclick="openInstagramProfile()"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon" style="visibility: hidden">
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <span></span>
+          </div>
+
+          <div class="bg-icon" style="visibility: hidden">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="img-hero">
+        <img src="img/hero.png" alt="" />
+        <div class="rotate-text">
+          <div class="text">
+            <p>I'm Freelance Aerial Drone Pilot and Photographer</p>
+          </div>
+          <span><i></i></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/aboutMe.png" alt="" class="aboutHero" />
+        <div class="showcase-ring">
+          <img src="shapes/ring.png" class="ring" />
+          <img src="shapes/circle.png" class="circle" />
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About Me</h2>
+        <h3>#Freelance</h3>
+        <p>
+          Saya adalah Seorang Photographer dan juga Seorang Pilot Drone
+          Sekaligus Seorang Mahasiswa
+        </p>
+        <div class="about-btn">
+          <button class="active">Main Skills</button>
+          <button>Awards</button>
+          <button>Education</button>
+        </div>
+        <div class="content-btn">
+          <div class="content">
+            <div class="text-box">
+              <p>Software Editing</p>
+              <span
+                >Corel Draw, Canva, Pixellab, VN, Capcut, Adobe Premiere
+                ...</span
+              >
+            </div>
+            <div class="text-box">
+              <p>Photo & Videography</p>
+              <span
+                >Dapat Mengoperasikan Kamera Mirorless, Drone dan Gimbal
+                (Stabilizer) ...</span
+              >
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>KMI EXPO Bali 2023</p>
+              <span>Mendapat Juara Harapan 2</span>
+            </div>
+            <div class="text-box">
+              <p>Mengikuti Lomba Desain Grafis</p>
+              <span>Pernah Mengikuti Desain Grafis Tingkat Provinsi</span>
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="text-box">
+              <p>2009-2015</p>
+              <span>SD Negeri 5 Sungai Danau</span>
+            </div>
+            <div class="text-box">
+              <p>2015-2018</p>
+              <span>Mts Negeri 3 Tanah Bumbu</span>
+            </div>
+            <div class="text-box">
+              <p>2018-2021</p>
+              <span>SMK Negeri 1 Satui</span>
+            </div>
+            <div class="text-box">
+              <p>2021-Sekarang</p>
+              <span
+                >S1 Teknik Informatika - Universitas Islam Kalimantan MAB</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="cvContent">
+          <a
+            href="img/CV DENI MAULANA HIDAYAT.pdf"
+            target="_blank"
+            class="btn d-CV"
+            >Download CV <i class="bx bx-download"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2 class="heading">My Services</h2>
+        <span>what i will do for you</span>
+      </div>
+
+      <div class="allServices">
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-layer"></i>
+            <span></span>
+          </div>
+          <h3>Sewa Drone + Pilot</h3>
+          <p>Sewa Drone + Pilot</p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-code-alt"></i>
+            <span></span>
+          </div>
+          <h3>Photo & Videography</h3>
+          <p>Keperluan Film, Yearbook, dll, ...</p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bx-desktop"></i>
+            <span></span>
+          </div>
+          <h3>Desain Grafis</h3>
+          <p>Partner Of @design.createble</p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+
+        <div class="servicesItem">
+          <div class="icon-services">
+            <i class="bx bxs-party"></i>
+            <span></span>
+          </div>
+          <h3>Dokumentasi lain lain</h3>
+          <p>Prewedding, Graduation, dll, ...</p>
+          <a href="#" class="readMore">Read More</a>
+        </div>
+      </div>
+
+      <div class="proposal">
+        <div class="text-box">
+          <span>Visit us!</span>
+          <h3>@design.createable</h3>
+          <a href="#contact" class="btn">Follow</a>
+        </div>
+        <img src="img/support.png" class="first" />
+      </div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/circle.png" class="circle2" />
+        <img src="shapes/circle.png" class="circle3" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2 class="heading">My Portfolio</h2>
+        <span>Deni Maulana Hidayat</span>
+      </div>
+      <div class="fillter-buttons">
+        <button class="button mixitup-control-active" data-filter="all">
+          All Project
+        </button>
+        <button class="button" data-filter=".web">Drone Project</button>
+        <button class="button" data-filter=".uiux">Team Work</button>
+        <button class="button" data-filter=".branding">
+          Desain Grafis Collab
+        </button>
+      </div>
+
+      <div class="portfolio-gallery">
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>Anniversary 4 Th HAI Banjarmasin</h3>
+            <p>
+              Happy Anniversary 4 Th Honda Adv Indonesia Chapter Banjarmasin
+            </p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/1.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>Wisuda Uniska</h3>
+            <p>in frame : Maulidah</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/Wisuda Uniska.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>SMK Negeri 4 Banjar baru</h3>
+            <p>Last Ceremony of SMK Negeri 4 Banjarbaru</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/SMK 4 BJB.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix web">
+          <div class="portfolio-content">
+            <h3>HUT Ke 27 Tahun Tsanega</h3>
+            <p>Selamat Hari Ulang Tahun Ke 27 Mts Negeri 3 Tanah Bumbu</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/4.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix uiux">
+          <div class="portfolio-content">
+            <h3>Profile Kelurahan Sungai Bilu</h3>
+            <p>Kelurahan Sungai Bilu</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/5.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="portfolio-box mix branding">
+          <div class="portfolio-content">
+            <h3>Part of Design.createable</h3>
+            <p>Desain Grafis Collab</p>
+            <a href="#" class="readMore">Explore More</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="img/portfolio/6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="main-text">
+        <h2 class="heading">Blog</h2>
+        <span>Latest News & Post</span>
+      </div>
+
+      <div class="blog-box swiper mySwiper">
+        <div class="cards swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/1.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Prewedding A&K</h2>
+              <span class="date">Minggu, Jan 07, 2024</span>
+              <p class="excerpt">Location : Kebun Raya Banua, Banjarbaru</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/2.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Puskesmas - Anjir Pasar</h2>
+              <span class="date">Nov, 03-07, 2023</span>
+              <p class="excerpt">Akreditasi Puskesmas - Anjir Pasar</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/3.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Wisuda ULM</h2>
+              <span class="date">Rabu, Feb 28, 2024</span>
+              <p class="excerpt">Foto Wisuda ULM, Gedung Auditorium</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/Fcp Novotel.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>Event FCP x FCM Thailand look</h2>
+              <span class="date">Selasa, Jan 30, 2024</span>
+              <p class="excerpt">Location : Novotel</p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/5.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>SMK Negeri 4 Banjarbaru</h2>
+              <span class="date">Minggu, Mar 10, 2024</span>
+              <p class="excerpt">
+                Lorem ipsum dolor sit amet consectetr adipisicing elit. Maiores,
+                illo.
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <div class="card-top">
+              <img src="img/blog/6.jpg" alt="" />
+            </div>
+            <div class="card-info">
+              <h2>BEM FKG ULM Oklusal</h2>
+              <span class="date">Jum'at, Okt 13, 2023</span>
+              <p class="excerpt">
+                Penyuluhan kesehatan Gigi dan Mulut, sikat gigi bersama, Cerdas
+                Cermat Berhadiah
+              </p>
+              <a href="#" class="readMore">Explore More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="showcase">
+        <img src="shapes/ring.png" class="ring" />
+        <img src="shapes/second-circle.png" class="second-circle" />
+        <img src="shapes/circle.png" class="circle" />
+        <img src="shapes/half-ring.png" class="half-ring" />
+      </div>
+    </section>
+
+    <section class="down-box" id="contact">
+      <div class="contactSkills">
+        <div class="contact-info">
+          <div class="main-text">
+            <h2 class="heading">Contact Me</h2>
+            <span>get in touch with me</span>
+          </div>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="First Name" />
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <input type="email" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea name="#" id="" cols="30" rows="10"> </textarea>
+            <div class="formBtn">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+        </div>
+        <div class="skills">
+          <div class="container">
+            <div class="skillBox">
+              <div class="main-text">
+                <h2 class="heading">My Skills</h2>
+                <span>Let Me Help you</span>
+              </div>
+              <div class="skill-wrap">
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="80">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Photography</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="70">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Videography</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="83">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Desain Grafis</div>
+                </div>
+
+                <div class="skill">
+                  <div class="outer-circle">
+                    <div class="inner-circle">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        width="180px"
+                        height="180px"
+                      >
+                        <defs>
+                          <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                          </linearGradient>
+                        </defs>
+                        <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                      </svg>
+                      <h2 class="counter"><span data-target="67">0</span>%</h2>
+                    </div>
+                  </div>
+                  <div class="sk-title">Editing</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Copyright © 2023 by <span>DNMAULANAA</span> || DN.PROJECT || DN.VISUALL.
+      </p>
+    </footer>
+
+    <div id="progress">
+      <span id="progress-value">
+        <i class="bx bxs-chevrons-up"></i>
+      </span>
+    </div>
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
+    <script></script>
+  </body>
+</html>
