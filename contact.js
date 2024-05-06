@@ -44,10 +44,8 @@ function downloadCV() {
 }
 
 function openInstagramProfile() {
-  var username = "@dn.pr0ject"; // Ganti dengan username tujuan
-
   // Buat tautan ke halaman profil Instagram
-  var instagramProfileLink = "https://www.instagram.com/" + username;
+  var instagramProfileLink = "https://www.instagram.com/dn.pr0ject/";
 
   // Buka halaman profil Instagram di tab baru
   window.open(instagramProfileLink, "_blank");
